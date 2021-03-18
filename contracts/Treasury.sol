@@ -2,14 +2,14 @@
 
 pragma solidity 0.6.12;
 
-import "@openzeppelin/contracts/math/Math.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
-import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+import "./common/Math.sol";
+import "./interfaces/IERC20.sol";
+import "./common/SafeERC20.sol";
+import "./common/ReentrancyGuard.sol";
 
-import "./lib/Babylonian.sol";
-import "./owner/Operator.sol";
-import "./utils/ContractGuard.sol";
+import "./common/Babylonian.sol";
+import "./common/Operator.sol";
+import "./common/ContractGuard.sol";
 import "./interfaces/IBasisAsset.sol";
 import "./interfaces/IOracle.sol";
 import "./interfaces/IBoardroom.sol";

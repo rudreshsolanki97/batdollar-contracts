@@ -2,10 +2,10 @@
 
 pragma solidity 0.6.12;
 
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
-import "@openzeppelin/contracts/math/SafeMath.sol";
-import '@openzeppelin/contracts/math/Math.sol';
+import "./interfaces/IERC20.sol";
+import "./common/SafeERC20.sol";
+import "./common/SafeMath.sol";
+import './common/Math.sol';
 
 // Note that this pool has no minter key of SHARE (rewards).
 // Instead, the governance will call SHARE distributeReward method and send reward to this pool at the beginning.

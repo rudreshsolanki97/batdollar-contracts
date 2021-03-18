@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
-import './owner/Operator.sol';
-import '@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol';
+import './common/Operator.sol';
+import './common/ERC20Burnable.sol';
 
 contract Share is ERC20Burnable, Operator {
     constructor() public ERC20('Bat True Share', 'BTS') {

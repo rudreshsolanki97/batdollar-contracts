@@ -1,0 +1,577 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [  <!ENTITY quot "&#34;">  <!ENTITY amp "&#38;">  <!ENTITY apos "&#39;">  <!ENTITY lt "&#60;">  <!ENTITY gt "&#62;">  <!ENTITY nbsp "&#160;">  <!ENTITY iexcl "&#161;">  <!ENTITY cent "&#162;">  <!ENTITY pound "&#163;">  <!ENTITY curren "&#164;">  <!ENTITY yen "&#165;">  <!ENTITY brvbar "&#166;">  <!ENTITY sect "&#167;">  <!ENTITY uml "&#168;">  <!ENTITY copy "&#169;">  <!ENTITY ordf "&#170;">  <!ENTITY laquo "&#171;">  <!ENTITY not "&#172;">  <!ENTITY shy "&#173;">  <!ENTITY reg "&#174;">  <!ENTITY macr "&#175;">  <!ENTITY deg "&#176;">  <!ENTITY plusmn "&#177;">  <!ENTITY sup2 "&#178;">  <!ENTITY sup3 "&#179;">  <!ENTITY acute "&#180;">  <!ENTITY micro "&#181;">  <!ENTITY para "&#182;">  <!ENTITY middot "&#183;">  <!ENTITY cedil "&#184;">  <!ENTITY sup1 "&#185;">  <!ENTITY ordm "&#186;">  <!ENTITY raquo "&#187;">  <!ENTITY frac14 "&#188;">  <!ENTITY frac12 "&#189;">  <!ENTITY frac34 "&#190;">  <!ENTITY iquest "&#191;">  <!ENTITY Agrave "&#192;">  <!ENTITY Aacute "&#193;">  <!ENTITY Acirc "&#194;">  <!ENTITY Atilde "&#195;">  <!ENTITY Auml "&#196;">  <!ENTITY Aring "&#197;">  <!ENTITY AElig "&#198;">  <!ENTITY Ccedil "&#199;">  <!ENTITY Egrave "&#200;">  <!ENTITY Eacute "&#201;">  <!ENTITY Ecirc "&#202;">  <!ENTITY Euml "&#203;">  <!ENTITY Igrave "&#204;">  <!ENTITY Iacute "&#205;">  <!ENTITY Icirc "&#206;">  <!ENTITY Iuml "&#207;">  <!ENTITY ETH "&#208;">  <!ENTITY Ntilde "&#209;">  <!ENTITY Ograve "&#210;">  <!ENTITY Oacute "&#211;">  <!ENTITY Ocirc "&#212;">  <!ENTITY Otilde "&#213;">  <!ENTITY Ouml "&#214;">  <!ENTITY times "&#215;">  <!ENTITY Oslash "&#216;">  <!ENTITY Ugrave "&#217;">  <!ENTITY Uacute "&#218;">  <!ENTITY Ucirc "&#219;">  <!ENTITY Uuml "&#220;">  <!ENTITY Yacute "&#221;">  <!ENTITY THORN "&#222;">  <!ENTITY szlig "&#223;">  <!ENTITY agrave "&#224;">  <!ENTITY aacute "&#225;">  <!ENTITY acirc "&#226;">  <!ENTITY atilde "&#227;">  <!ENTITY auml "&#228;">  <!ENTITY aring "&#229;">  <!ENTITY aelig "&#230;">  <!ENTITY ccedil "&#231;">  <!ENTITY egrave "&#232;">  <!ENTITY eacute "&#233;">  <!ENTITY ecirc "&#234;">  <!ENTITY euml "&#235;">  <!ENTITY igrave "&#236;">  <!ENTITY iacute "&#237;">  <!ENTITY icirc "&#238;">  <!ENTITY iuml "&#239;">  <!ENTITY eth "&#240;">  <!ENTITY ntilde "&#241;">  <!ENTITY ograve "&#242;">  <!ENTITY oacute "&#243;">  <!ENTITY ocirc "&#244;">  <!ENTITY otilde "&#245;">  <!ENTITY ouml "&#246;">  <!ENTITY divide "&#247;">  <!ENTITY oslash "&#248;">  <!ENTITY ugrave "&#249;">  <!ENTITY uacute "&#250;">  <!ENTITY ucirc "&#251;">  <!ENTITY uuml "&#252;">  <!ENTITY yacute "&#253;">  <!ENTITY thorn "&#254;">  <!ENTITY yuml "&#255;">  <!ENTITY OElig "&#338;">  <!ENTITY oelig "&#339;">  <!ENTITY Scaron "&#352;">  <!ENTITY scaron "&#353;">  <!ENTITY Yuml "&#376;">  <!ENTITY fnof "&#402;">  <!ENTITY circ "&#710;">  <!ENTITY tilde "&#732;">  <!ENTITY Alpha "&#913;">  <!ENTITY Beta "&#914;">  <!ENTITY Gamma "&#915;">  <!ENTITY Delta "&#916;">  <!ENTITY Epsilon "&#917;">  <!ENTITY Zeta "&#918;">  <!ENTITY Eta "&#919;">  <!ENTITY Theta "&#920;">  <!ENTITY Iota "&#921;">  <!ENTITY Kappa "&#922;">  <!ENTITY Lambda "&#923;">  <!ENTITY Mu "&#924;">  <!ENTITY Nu "&#925;">  <!ENTITY Xi "&#926;">  <!ENTITY Omicron "&#927;">  <!ENTITY Pi "&#928;">  <!ENTITY Rho "&#929;">  <!ENTITY Sigma "&#931;">  <!ENTITY Tau "&#932;">  <!ENTITY Upsilon "&#933;">  <!ENTITY Phi "&#934;">  <!ENTITY Chi "&#935;">  <!ENTITY Psi "&#936;">  <!ENTITY Omega "&#937;">  <!ENTITY alpha "&#945;">  <!ENTITY beta "&#946;">  <!ENTITY gamma "&#947;">  <!ENTITY delta "&#948;">  <!ENTITY epsilon "&#949;">  <!ENTITY zeta "&#950;">  <!ENTITY eta "&#951;">  <!ENTITY theta "&#952;">  <!ENTITY iota "&#953;">  <!ENTITY kappa "&#954;">  <!ENTITY lambda "&#955;">  <!ENTITY mu "&#956;">  <!ENTITY nu "&#957;">  <!ENTITY xi "&#958;">  <!ENTITY omicron "&#959;">  <!ENTITY pi "&#960;">  <!ENTITY rho "&#961;">  <!ENTITY sigmaf "&#962;">  <!ENTITY sigma "&#963;">  <!ENTITY tau "&#964;">  <!ENTITY upsilon "&#965;">  <!ENTITY phi "&#966;">  <!ENTITY chi "&#967;">  <!ENTITY psi "&#968;">  <!ENTITY omega "&#969;">  <!ENTITY thetasym "&#977;">  <!ENTITY upsih "&#978;">  <!ENTITY piv "&#982;">  <!ENTITY ensp "&#8194;">  <!ENTITY emsp "&#8195;">  <!ENTITY thinsp "&#8201;">  <!ENTITY zwnj "&#8204;">  <!ENTITY zwj "&#8205;">  <!ENTITY lrm "&#8206;">  <!ENTITY rlm "&#8207;">  <!ENTITY ndash "&#8211;">  <!ENTITY mdash "&#8212;">  <!ENTITY lsquo "&#8216;">  <!ENTITY rsquo "&#8217;">  <!ENTITY sbquo "&#8218;">  <!ENTITY ldquo "&#8220;">  <!ENTITY rdquo "&#8221;">  <!ENTITY bdquo "&#8222;">  <!ENTITY dagger "&#8224;">  <!ENTITY Dagger "&#8225;">  <!ENTITY bull "&#8226;">  <!ENTITY hellip "&#8230;">  <!ENTITY permil "&#8240;">  <!ENTITY prime "&#8242;">  <!ENTITY Prime "&#8243;">  <!ENTITY lsaquo "&#8249;">  <!ENTITY rsaquo "&#8250;">  <!ENTITY oline "&#8254;">  <!ENTITY frasl "&#8260;">  <!ENTITY euro "&#8364;">  <!ENTITY image "&#8465;">  <!ENTITY weierp "&#8472;">  <!ENTITY real "&#8476;">  <!ENTITY trade "&#8482;">  <!ENTITY alefsym "&#8501;">  <!ENTITY larr "&#8592;">  <!ENTITY uarr "&#8593;">  <!ENTITY rarr "&#8594;">  <!ENTITY darr "&#8595;">  <!ENTITY harr "&#8596;">  <!ENTITY crarr "&#8629;">  <!ENTITY lArr "&#8656;">  <!ENTITY uArr "&#8657;">  <!ENTITY rArr "&#8658;">  <!ENTITY dArr "&#8659;">  <!ENTITY hArr "&#8660;">  <!ENTITY forall "&#8704;">  <!ENTITY part "&#8706;">  <!ENTITY exist "&#8707;">  <!ENTITY empty "&#8709;">  <!ENTITY nabla "&#8711;">  <!ENTITY isin "&#8712;">  <!ENTITY notin "&#8713;">  <!ENTITY ni "&#8715;">  <!ENTITY prod "&#8719;">  <!ENTITY sum "&#8721;">  <!ENTITY minus "&#8722;">  <!ENTITY lowast "&#8727;">  <!ENTITY radic "&#8730;">  <!ENTITY prop "&#8733;">  <!ENTITY infin "&#8734;">  <!ENTITY ang "&#8736;">  <!ENTITY and "&#8743;">  <!ENTITY or "&#8744;">  <!ENTITY cap "&#8745;">  <!ENTITY cup "&#8746;">  <!ENTITY int "&#8747;">  <!ENTITY there4 "&#8756;">  <!ENTITY sim "&#8764;">  <!ENTITY cong "&#8773;">  <!ENTITY asymp "&#8776;">  <!ENTITY ne "&#8800;">  <!ENTITY equiv "&#8801;">  <!ENTITY le "&#8804;">  <!ENTITY ge "&#8805;">  <!ENTITY sub "&#8834;">  <!ENTITY sup "&#8835;">  <!ENTITY nsub "&#8836;">  <!ENTITY sube "&#8838;">  <!ENTITY supe "&#8839;">  <!ENTITY oplus "&#8853;">  <!ENTITY otimes "&#8855;">  <!ENTITY perp "&#8869;">  <!ENTITY sdot "&#8901;">  <!ENTITY lceil "&#8968;">  <!ENTITY rceil "&#8969;">  <!ENTITY lfloor "&#8970;">  <!ENTITY rfloor "&#8971;">  <!ENTITY lang "&#9001;">  <!ENTITY rang "&#9002;">  <!ENTITY loz "&#9674;">  <!ENTITY spades "&#9824;">  <!ENTITY clubs "&#9827;">  <!ENTITY hearts "&#9829;">  <!ENTITY diams "&#9830;"> ]><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1148pt" height="1619pt" viewBox="0.00 0.00 1147.76 1619.00">
+<g id="graph0" class="graph" transform="translate(4,1615) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-1615 1143.7599,-1615 1143.7599,4 -4,4" style=""></polygon>
+<g id="clust1" class="cluster">
+<title style="">clusterShareWrapper</title>
+<path fill="#445773" stroke="#445773" d="M29.4315,-448C29.4315,-448 132.5685,-448 132.5685,-448 138.5685,-448 144.5685,-454 144.5685,-460 144.5685,-460 144.5685,-675 144.5685,-675 144.5685,-681 138.5685,-687 132.5685,-687 132.5685,-687 29.4315,-687 29.4315,-687 23.4315,-687 17.4315,-681 17.4315,-675 17.4315,-675 17.4315,-460 17.4315,-460 17.4315,-454 23.4315,-448 29.4315,-448" style=""></path>
+<text text-anchor="middle" x="81" y="-670.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ShareWrapper</text>
+</g>
+<g id="clust2" class="cluster">
+<title style="">clusterBoardroom</title>
+<path fill="#445773" stroke="#445773" d="M186,-402C186,-402 1119.7599,-402 1119.7599,-402 1125.7599,-402 1131.7599,-408 1131.7599,-414 1131.7599,-414 1131.7599,-1247 1131.7599,-1247 1131.7599,-1253 1125.7599,-1259 1119.7599,-1259 1119.7599,-1259 186,-1259 186,-1259 180,-1259 174,-1253 174,-1247 174,-1247 174,-414 174,-414 174,-408 180,-402 186,-402" style=""></path>
+<text text-anchor="middle" x="652.88" y="-1242.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Boardroom</text>
+</g>
+<g id="clust3" class="cluster">
+<title style="">cluster_totalSupply</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M288.5956,-1335C288.5956,-1335 351.5956,-1335 351.5956,-1335 357.5956,-1335 363.5956,-1341 363.5956,-1347 363.5956,-1347 363.5956,-1454 363.5956,-1454 363.5956,-1460 357.5956,-1466 351.5956,-1466 351.5956,-1466 288.5956,-1466 288.5956,-1466 282.5956,-1466 276.5956,-1460 276.5956,-1454 276.5956,-1454 276.5956,-1347 276.5956,-1347 276.5956,-1341 282.5956,-1335 288.5956,-1335" style=""></path>
+<text text-anchor="middle" x="320.0956" y="-1449.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">_totalSupply</text>
+</g>
+<g id="clust4" class="cluster">
+<title style="">clusterIERC20</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M712.4155,-1267C712.4155,-1267 864.8262,-1267 864.8262,-1267 870.8262,-1267 876.8262,-1273 876.8262,-1279 876.8262,-1279 876.8262,-1386 876.8262,-1386 876.8262,-1392 870.8262,-1398 864.8262,-1398 864.8262,-1398 712.4155,-1398 712.4155,-1398 706.4155,-1398 700.4155,-1392 700.4155,-1386 700.4155,-1386 700.4155,-1279 700.4155,-1279 700.4155,-1273 706.4155,-1267 712.4155,-1267" style=""></path>
+<text text-anchor="middle" x="788.6209" y="-1381.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC20</text>
+</g>
+<g id="clust5" class="cluster">
+<title style="">clusterdirectorShare</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M286.5956,-37C286.5956,-37 353.5956,-37 353.5956,-37 359.5956,-37 365.5956,-43 365.5956,-49 365.5956,-49 365.5956,-102 365.5956,-102 365.5956,-108 359.5956,-114 353.5956,-114 353.5956,-114 286.5956,-114 286.5956,-114 280.5956,-114 274.5956,-108 274.5956,-102 274.5956,-102 274.5956,-49 274.5956,-49 274.5956,-43 280.5956,-37 286.5956,-37" style=""></path>
+<text text-anchor="middle" x="320.0956" y="-97.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">directorShare</text>
+</g>
+<g id="clust6" class="cluster">
+<title style="">clusterITreasury</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M511.6505,-209C511.6505,-209 649.1065,-209 649.1065,-209 655.1065,-209 661.1065,-215 661.1065,-221 661.1065,-221 661.1065,-382 661.1065,-382 661.1065,-388 655.1065,-394 649.1065,-394 649.1065,-394 511.6505,-394 511.6505,-394 505.6505,-394 499.6505,-388 499.6505,-382 499.6505,-382 499.6505,-221 499.6505,-221 499.6505,-215 505.6505,-209 511.6505,-209" style=""></path>
+<text text-anchor="middle" x="580.3785" y="-377.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ITreasury</text>
+</g>
+<g id="clust7" class="cluster">
+<title style="">clusterlatestRPS</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M765.6209,-317C765.6209,-317 811.6209,-317 811.6209,-317 817.6209,-317 823.6209,-323 823.6209,-329 823.6209,-329 823.6209,-382 823.6209,-382 823.6209,-388 817.6209,-394 811.6209,-394 811.6209,-394 765.6209,-394 765.6209,-394 759.6209,-394 753.6209,-388 753.6209,-382 753.6209,-382 753.6209,-329 753.6209,-329 753.6209,-323 759.6209,-317 765.6209,-317" style=""></path>
+<text text-anchor="middle" x="788.6209" y="-377.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">latestRPS</text>
+</g>
+<g id="clust8" class="cluster">
+<title style="">clusterContractGuard</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M745.1159,-8C745.1159,-8 832.1259,-8 832.1259,-8 838.1259,-8 844.1259,-14 844.1259,-20 844.1259,-20 844.1259,-127 844.1259,-127 844.1259,-133 838.1259,-139 832.1259,-139 832.1259,-139 745.1159,-139 745.1159,-139 739.1159,-139 733.1159,-133 733.1159,-127 733.1159,-127 733.1159,-20 733.1159,-20 733.1159,-14 739.1159,-8 745.1159,-8" style=""></path>
+<text text-anchor="middle" x="788.6209" y="-122.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ContractGuard</text>
+</g>
+<g id="clust9" class="cluster">
+<title style="">clusterprevRPS</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M765.6209,-232C765.6209,-232 811.6209,-232 811.6209,-232 817.6209,-232 823.6209,-238 823.6209,-244 823.6209,-244 823.6209,-297 823.6209,-297 823.6209,-303 817.6209,-309 811.6209,-309 811.6209,-309 765.6209,-309 765.6209,-309 759.6209,-309 753.6209,-303 753.6209,-297 753.6209,-297 753.6209,-244 753.6209,-244 753.6209,-238 759.6209,-232 765.6209,-232" style=""></path>
+<text text-anchor="middle" x="788.6209" y="-292.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">prevRPS</text>
+</g>
+<g id="clust10" class="cluster">
+<title style="">clusteramount</title>
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M765.6209,-147C765.6209,-147 811.6209,-147 811.6209,-147 817.6209,-147 823.6209,-153 823.6209,-159 823.6209,-159 823.6209,-212 823.6209,-212 823.6209,-218 817.6209,-224 811.6209,-224 811.6209,-224 765.6209,-224 765.6209,-224 759.6209,-224 753.6209,-218 753.6209,-212 753.6209,-212 753.6209,-159 753.6209,-159 753.6209,-153 759.6209,-147 765.6209,-147" style=""></path>
+<text text-anchor="middle" x="788.6209" y="-207.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">amount</text>
+</g>
+<g id="clust11" class="cluster">
+<title style="">cluster_01</title>
+<polygon fill="#2e3e56" stroke="#000000" points="8,-1474 8,-1603 354.5956,-1603 354.5956,-1474 8,-1474" style=""></polygon>
+<text text-anchor="middle" x="181.2978" y="-1586.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Legend</text>
+</g>
+<!-- ShareWrapper.totalSupply -->
+<g id="node1" class="node" data-name="ShareWrapper.totalSupply">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="81" cy="-636" rx="55.6372" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="81" y="-631.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">totalSupply</text>
+</g>
+<!-- ShareWrapper.balanceOf -->
+<g id="node2" class="node" data-name="ShareWrapper.balanceOf">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="81" cy="-582" rx="50.9211" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="81" y="-577.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">balanceOf</text>
+</g>
+<!-- ShareWrapper.stake -->
+<g id="node3" class="node" data-name="ShareWrapper.stake">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="81" cy="-528" rx="30.7558" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="81" y="-523.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">stake</text>
+</g>
+<!-- _totalSupply.add -->
+<g id="node31" class="node" data-name="_totalSupply.add">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="319.5956" cy="-1415" rx="27" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-1410.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">add</text>
+</g>
+<!-- ShareWrapper.stake&#45;&gt;_totalSupply.add -->
+<g id="edge1" class="edge" data-name="ShareWrapper.stake->_totalSupply.add">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M110.8199,-532.935C123.8318,-536.7077 137.9339,-543.3441 146,-555 198.6984,-631.1517 113.5988,-1317.801 174,-1388 200.2505,-1418.5086 248.8457,-1421.8 282.6384,-1419.7535" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="283.3505,-1423.2081 293.0428,-1418.9292 282.7976,-1416.23 283.3505,-1423.2081" style=""></polygon>
+</g>
+<!-- IERC20.safeTransferFrom -->
+<g id="node33" class="node" data-name="IERC20.safeTransferFrom">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="788.6209" cy="-1293" rx="80.4112" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-1288.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">safeTransferFrom</text>
+</g>
+<!-- ShareWrapper.stake&#45;&gt;IERC20.safeTransferFrom -->
+<g id="edge2" class="edge" data-name="ShareWrapper.stake->IERC20.safeTransferFrom">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M110.7889,-532.9565C123.794,-536.7339 137.8994,-543.3681 146,-555 190.9919,-619.6054 118.5887,-1207.0741 174,-1263 246.2165,-1335.8872 556.095,-1316.2846 706.3237,-1301.9534" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="706.8056,-1305.4231 716.4215,-1300.975 706.1305,-1298.4558 706.8056,-1305.4231" style=""></polygon>
+</g>
+<!-- ITreasury.epoch -->
+<g id="node36" class="node" data-name="ITreasury.epoch">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="580.3785" cy="-235" rx="34.191" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="580.3785" y="-230.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">epoch</text>
+</g>
+<!-- ShareWrapper.stake&#45;&gt;ITreasury.epoch -->
+<g id="edge22" class="edge" data-name="ShareWrapper.stake->ITreasury.epoch">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M110.3201,-521.9501C122.9055,-517.9596 136.8013,-511.4613 146,-501 177.3257,-465.3746 142.8365,-433.7673 174,-398 270.4939,-287.2511 452.8545,-250.8233 536.4746,-239.6181" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="537.1733,-243.0573 546.6475,-238.3149 536.2838,-236.114 537.1733,-243.0573" style=""></polygon>
+</g>
+<!-- ContractGuard.stake -->
+<g id="node40" class="node" data-name="ContractGuard.stake">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="788.6209" cy="-34" rx="30.7558" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-29.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">stake</text>
+</g>
+<!-- ShareWrapper.stake&#45;&gt;ContractGuard.stake -->
+<g id="edge21" class="edge" data-name="ShareWrapper.stake->ContractGuard.stake">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M110.7547,-522.677C123.588,-518.8268 137.5618,-512.237 146,-501 213.4019,-411.2421 104.4194,-338.0798 174,-250 211.8428,-202.0961 623.0192,-81.3583 750.8948,-44.7115" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="751.9954,-48.0371 760.6475,-41.9223 750.0705,-41.307 751.9954,-48.0371" style=""></polygon>
+</g>
+<!-- ShareWrapper.withdraw -->
+<g id="node4" class="node" data-name="ShareWrapper.withdraw">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="81" cy="-474" rx="47.51" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="81" y="-469.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">withdraw</text>
+</g>
+<!-- Boardroom.claimReward -->
+<g id="node26" class="node" data-name="Boardroom.claimReward">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="319.5956" cy="-698" rx="62.5354" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-693.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">claimReward</text>
+</g>
+<!-- ShareWrapper.withdraw&#45;&gt;Boardroom.claimReward -->
+<g id="edge24" class="edge" data-name="ShareWrapper.withdraw->Boardroom.claimReward">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M121.6398,-483.5806C130.8707,-487.5548 139.7764,-493.1471 146,-501 193.5612,-561.0119 120.4018,-616.3123 174,-671 193.1472,-690.5365 221.5312,-698.4969 248.1653,-701.1293" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="248.0298,-704.6289 258.2646,-701.8903 248.5559,-697.6487 248.0298,-704.6289" style=""></polygon>
+</g>
+<!-- _totalSupply.sub -->
+<g id="node32" class="node" data-name="_totalSupply.sub">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="319.5956" cy="-1361" rx="27" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-1356.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">sub</text>
+</g>
+<!-- ShareWrapper.withdraw&#45;&gt;_totalSupply.sub -->
+<g id="edge3" class="edge" data-name="ShareWrapper.withdraw->_totalSupply.sub">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M122.3525,-483.0519C131.5697,-487.0363 140.2906,-492.7657 146,-501 196.0472,-573.1796 125.9365,-1217.4846 174,-1291 198.3403,-1328.2297 248.4006,-1346.1965 282.9719,-1354.479" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="282.6361,-1357.99 293.1581,-1356.7492 284.1589,-1351.1576 282.6361,-1357.99" style=""></polygon>
+</g>
+<!-- IERC20.safeTransfer -->
+<g id="node34" class="node" data-name="IERC20.safeTransfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="788.6209" cy="-1347" rx="59.0641" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-1342.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">safeTransfer</text>
+</g>
+<!-- ShareWrapper.withdraw&#45;&gt;IERC20.safeTransfer -->
+<g id="edge5" class="edge" data-name="ShareWrapper.withdraw->IERC20.safeTransfer">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M122.3451,-483.0571C131.5625,-487.0413 140.2852,-492.7694 146,-501 194.3209,-570.5932 117.132,-1200.1975 174,-1263 210.2817,-1303.0679 567.6563,-1331.9521 720.1908,-1342.5515" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="720.1574,-1346.0575 730.3743,-1343.2531 720.6386,-1339.074 720.1574,-1346.0575" style=""></polygon>
+</g>
+<!-- directorShare.sub -->
+<g id="node35" class="node" data-name="directorShare.sub">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="319.5956" cy="-63" rx="27" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-58.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">sub</text>
+</g>
+<!-- ShareWrapper.withdraw&#45;&gt;directorShare.sub -->
+<g id="edge4" class="edge" data-name="ShareWrapper.withdraw->directorShare.sub">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M83.5252,-455.7709C92.8951,-390.5083 127.5404,-169.6475 174,-118 202.0463,-86.8219 249.6,-73.2325 282.6994,-67.3648" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="283.5808,-70.7679 292.895,-65.7185 282.4649,-63.8574 283.5808,-70.7679" style=""></polygon>
+</g>
+<!-- ShareWrapper.withdraw&#45;&gt;ITreasury.epoch -->
+<g id="edge23" class="edge" data-name="ShareWrapper.withdraw->ITreasury.epoch">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M84.328,-455.9888C92.3277,-418.2517 116.4114,-330.9973 174,-290 285.1529,-210.8704 457.6289,-219.3927 537.3203,-228.678" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="537.1271,-232.1805 547.4792,-229.9254 537.9803,-225.2326 537.1271,-232.1805" style=""></polygon>
+</g>
+<!-- ContractGuard.withdraw -->
+<g id="node41" class="node" data-name="ContractGuard.withdraw">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="788.6209" cy="-88" rx="47.51" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-83.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">withdraw</text>
+</g>
+<!-- ShareWrapper.withdraw&#45;&gt;ContractGuard.withdraw -->
+<g id="edge25" class="edge" data-name="ShareWrapper.withdraw->ContractGuard.withdraw">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M81.8425,-455.8297C85.0583,-408.7235 100.4714,-281.8922 174,-218 257.6467,-145.3157 595.7585,-106.1112 731.6562,-93.0324" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="732.2336,-96.4934 741.8577,-92.0633 731.5715,-89.5248 732.2336,-96.4934" style=""></polygon>
+</g>
+<!-- Boardroom.onlyOperator -->
+<g id="node5" class="node" data-name="Boardroom.onlyOperator">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="387.43,-1196.5442 387.43,-1211.4558 347.6935,-1222 291.4977,-1222 251.7612,-1211.4558 251.7612,-1196.5442 291.4977,-1186 347.6935,-1186 387.43,-1196.5442" style=""></polygon>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="391.4396,-1193.469 391.4396,-1214.531 348.2177,-1226 290.9735,-1226 247.7516,-1214.531 247.7516,-1193.469 290.9735,-1182 348.2177,-1182 391.4396,-1193.469" style=""></polygon>
+<text text-anchor="middle" x="319.5956" y="-1199.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">onlyOperator</text>
+</g>
+<!-- Boardroom.directorExists -->
+<g id="node6" class="node" data-name="Boardroom.directorExists">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="650.3756,-532.5442 650.3756,-547.4558 609.3723,-558 551.3847,-558 510.3814,-547.4558 510.3814,-532.5442 551.3847,-522 609.3723,-522 650.3756,-532.5442" style=""></polygon>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="654.3756,-529.4426 654.3756,-550.5574 609.8783,-562 550.8787,-562 506.3814,-550.5574 506.3814,-529.4426 550.8787,-518 609.8783,-518 654.3756,-529.4426" style=""></polygon>
+<text text-anchor="middle" x="580.3785" y="-535.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">directorExists</text>
+</g>
+<!-- Boardroom.balanceOf -->
+<g id="node29" class="node" data-name="Boardroom.balanceOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="788.6209" cy="-540" rx="50.9211" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-535.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">balanceOf</text>
+</g>
+<!-- Boardroom.directorExists&#45;&gt;Boardroom.balanceOf -->
+<g id="edge6" class="edge" data-name="Boardroom.directorExists->Boardroom.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M654.3833,-540C678.3084,-540 704.5548,-540 727.444,-540" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="727.7041,-543.5001 737.704,-540 727.704,-536.5001 727.7041,-543.5001" style=""></polygon>
+</g>
+<!-- Boardroom.updateReward -->
+<g id="node7" class="node" data-name="Boardroom.updateReward">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="391.7293,-856.5442 391.7293,-871.4558 349.4744,-882 289.7168,-882 247.4619,-871.4558 247.4619,-856.5442 289.7168,-846 349.4744,-846 391.7293,-856.5442" style=""></polygon>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="395.7194,-853.4178 395.7194,-874.5822 349.9635,-886 289.2277,-886 243.4717,-874.5822 243.4717,-853.4178 289.2277,-842 349.9635,-842 395.7194,-853.4178" style=""></polygon>
+<text text-anchor="middle" x="319.5956" y="-859.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">updateReward</text>
+</g>
+<!-- Boardroom.latestSnapshotIndex -->
+<g id="node12" class="node" data-name="Boardroom.latestSnapshotIndex">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1016.7179" cy="-714" rx="88.6236" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="1016.7179" y="-709.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">latestSnapshotIndex</text>
+</g>
+<!-- Boardroom.updateReward&#45;&gt;Boardroom.latestSnapshotIndex -->
+<g id="edge8" class="edge" data-name="Boardroom.updateReward->Boardroom.latestSnapshotIndex">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M383.3086,-850.2909C513.4899,-822.2797 809.1743,-758.6572 945.475,-729.3294" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="946.3632,-732.7184 955.4032,-727.1931 944.8907,-725.8751 946.3632,-732.7184" style=""></polygon>
+</g>
+<!-- Boardroom.earned -->
+<g id="node22" class="node" data-name="Boardroom.earned">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="580.3785" cy="-598" rx="36.5383" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="580.3785" y="-593.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">earned</text>
+</g>
+<!-- Boardroom.updateReward&#45;&gt;Boardroom.earned -->
+<g id="edge7" class="edge" data-name="Boardroom.updateReward->Boardroom.earned">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M395.7458,-862.5744C418.3217,-858.3809 441.2446,-849.7682 457.1912,-833 521.8446,-765.0154 431.2628,-695.4759 493.1912,-625 503.4743,-613.2976 518.7178,-606.6014 533.5953,-602.7922" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="534.7375,-606.1261 543.7711,-600.5903 533.257,-599.2845 534.7375,-606.1261" style=""></polygon>
+</g>
+<!-- Boardroom.notInitialized -->
+<g id="node8" class="node" data-name="Boardroom.notInitialized">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="387.4442,-1080.5442 387.4442,-1095.4558 347.6994,-1106 291.4918,-1106 251.747,-1095.4558 251.747,-1080.5442 291.4918,-1070 347.6994,-1070 387.4442,-1080.5442" style=""></polygon>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="391.4542,-1077.4689 391.4542,-1098.5311 348.2236,-1110 290.9676,-1110 247.7369,-1098.5311 247.7369,-1077.4689 290.9676,-1066 348.2236,-1066 391.4542,-1077.4689" style=""></polygon>
+<text text-anchor="middle" x="319.5956" y="-1083.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">notInitialized</text>
+</g>
+<!-- Boardroom.&lt;Constructor&gt; -->
+<g id="node9" class="node" data-name="Boardroom.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="319.5956" cy="-1030" rx="67.5419" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-1025.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- Boardroom.setOperator -->
+<g id="node10" class="node" data-name="Boardroom.setOperator">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="319.5956" cy="-976" rx="56.155" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-971.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">setOperator</text>
+</g>
+<!-- Boardroom.setLockUp -->
+<g id="node11" class="node" data-name="Boardroom.setLockUp">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="319.5956" cy="-922" rx="53.3109" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-917.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">setLockUp</text>
+</g>
+<!-- Boardroom.getLatestSnapshot -->
+<g id="node13" class="node" data-name="Boardroom.getLatestSnapshot">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="788.6209" cy="-652" rx="81.6789" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-647.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">getLatestSnapshot</text>
+</g>
+<!-- Boardroom.getLatestSnapshot&#45;&gt;Boardroom.latestSnapshotIndex -->
+<g id="edge9" class="edge" data-name="Boardroom.getLatestSnapshot->Boardroom.latestSnapshotIndex">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M840.3796,-666.0688C874.0205,-675.2128 918.0918,-687.192 953.7595,-696.887" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="953.0131,-700.3111 963.5811,-699.5567 954.8493,-693.5562 953.0131,-700.3111" style=""></polygon>
+</g>
+<!-- Boardroom.getLastSnapshotIndexOf -->
+<g id="node14" class="node" data-name="Boardroom.getLastSnapshotIndexOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1016.7179" cy="-598" rx="107.084" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="1016.7179" y="-593.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">getLastSnapshotIndexOf</text>
+</g>
+<!-- Boardroom.getLastSnapshotOf -->
+<g id="node15" class="node" data-name="Boardroom.getLastSnapshotOf">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="788.6209" cy="-598" rx="85.1101" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-593.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">getLastSnapshotOf</text>
+</g>
+<!-- Boardroom.getLastSnapshotOf&#45;&gt;Boardroom.getLastSnapshotIndexOf -->
+<g id="edge10" class="edge" data-name="Boardroom.getLastSnapshotOf->Boardroom.getLastSnapshotIndexOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M873.8802,-598C882.2475,-598 890.8361,-598 899.4492,-598" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="899.5597,-601.5001 909.5596,-598 899.5596,-594.5001 899.5597,-601.5001" style=""></polygon>
+</g>
+<!-- Boardroom.canWithdraw -->
+<g id="node16" class="node" data-name="Boardroom.canWithdraw">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="319.5956" cy="-482" rx="63.1015" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-477.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">canWithdraw</text>
+</g>
+<!-- Boardroom.canWithdraw&#45;&gt;ITreasury.epoch -->
+<g id="edge11" class="edge" data-name="Boardroom.canWithdraw->ITreasury.epoch">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M382.3087,-484.4308C408.7532,-482.0929 437.831,-474.5421 457.1912,-455 518.6021,-393.0119 435.1682,-327.1702 493.1912,-262 504.1686,-249.6705 520.6505,-242.9045 536.3388,-239.2158" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="537.339,-242.5858 546.4679,-237.2086 535.9783,-235.7193 537.339,-242.5858" style=""></polygon>
+</g>
+<!-- Boardroom.canClaimReward -->
+<g id="node17" class="node" data-name="Boardroom.canClaimReward">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="319.5956" cy="-428" rx="78.1462" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-423.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">canClaimReward</text>
+</g>
+<!-- Boardroom.canClaimReward&#45;&gt;ITreasury.epoch -->
+<g id="edge12" class="edge" data-name="Boardroom.canClaimReward->ITreasury.epoch">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M345.7844,-410.9317C375.1407,-390.971 423.0868,-355.8138 457.1912,-318 477.0077,-296.0281 469.6345,-279.9036 493.1912,-262 505.9016,-252.3398 522.1115,-246.1014 537.0978,-242.0876" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="538.3172,-245.394 547.2195,-239.6495 536.6779,-238.5887 538.3172,-245.394" style=""></polygon>
+</g>
+<!-- Boardroom.epoch -->
+<g id="node18" class="node" data-name="Boardroom.epoch">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="319.5956" cy="-644" rx="34.191" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-639.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">epoch</text>
+</g>
+<!-- Boardroom.epoch&#45;&gt;ITreasury.epoch -->
+<g id="edge13" class="edge" data-name="Boardroom.epoch->ITreasury.epoch">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M353.2594,-647.6574C384.9424,-649.0504 431.2831,-645.4284 457.1912,-617 510.602,-558.3933 442.9769,-323.3676 493.1912,-262 503.7277,-249.1232 520.2883,-242.2673 536.1589,-238.6594" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="537.2389,-242.0176 546.4182,-236.727 535.9431,-235.1386 537.2389,-242.0176" style=""></polygon>
+</g>
+<!-- Boardroom.nextEpochPoint -->
+<g id="node19" class="node" data-name="Boardroom.nextEpochPoint">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="319.5956" cy="-806" rx="72.9567" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-801.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">nextEpochPoint</text>
+</g>
+<!-- ITreasury.nextEpochPoint -->
+<g id="node37" class="node" data-name="ITreasury.nextEpochPoint">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="580.3785" cy="-343" rx="72.9567" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="580.3785" y="-338.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">nextEpochPoint</text>
+</g>
+<!-- Boardroom.nextEpochPoint&#45;&gt;ITreasury.nextEpochPoint -->
+<g id="edge14" class="edge" data-name="Boardroom.nextEpochPoint->ITreasury.nextEpochPoint">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M392.0512,-808.2941C416.0407,-805.1972 440.7738,-797.139 457.1912,-779 514.2595,-715.9473 448.6592,-470.4524 493.1912,-398 502.2712,-383.2271 516.9673,-371.7581 531.7277,-363.2082" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="533.7468,-366.0953 540.8767,-358.2586 530.4159,-359.9385 533.7468,-366.0953" style=""></polygon>
+</g>
+<!-- Boardroom.getDollarPrice -->
+<g id="node20" class="node" data-name="Boardroom.getDollarPrice">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="319.5956" cy="-752" rx="67.1888" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-747.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">getDollarPrice</text>
+</g>
+<!-- ITreasury.getDollarPrice -->
+<g id="node38" class="node" data-name="ITreasury.getDollarPrice">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="580.3785" cy="-289" rx="67.1888" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="580.3785" y="-284.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">getDollarPrice</text>
+</g>
+<!-- Boardroom.getDollarPrice&#45;&gt;ITreasury.getDollarPrice -->
+<g id="edge15" class="edge" data-name="Boardroom.getDollarPrice->ITreasury.getDollarPrice">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M386.0483,-755.0329C411.8701,-752.5537 439.4484,-744.7302 457.1912,-725 518.2004,-657.157 435.8811,-386.9953 493.1912,-316 497.9812,-310.0662 504.0514,-305.4093 510.7512,-301.7587" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="512.6107,-304.7549 520.2165,-297.3792 509.6712,-298.402 512.6107,-304.7549" style=""></polygon>
+</g>
+<!-- Boardroom.rewardPerShare -->
+<g id="node21" class="node" data-name="Boardroom.rewardPerShare">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="580.3785" cy="-652" rx="72.8889" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="580.3785" y="-647.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">rewardPerShare</text>
+</g>
+<!-- Boardroom.rewardPerShare&#45;&gt;Boardroom.getLatestSnapshot -->
+<g id="edge16" class="edge" data-name="Boardroom.rewardPerShare->Boardroom.getLatestSnapshot">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M653.2116,-652C667.0854,-652 681.7762,-652 696.166,-652" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="696.5749,-655.5001 706.5749,-652 696.5748,-648.5001 696.5749,-655.5001" style=""></polygon>
+</g>
+<!-- Boardroom.earned&#45;&gt;Boardroom.getLatestSnapshot -->
+<g id="edge17" class="edge" data-name="Boardroom.earned->Boardroom.getLatestSnapshot">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M612.9164,-606.4375C643.0535,-614.2524 688.6981,-626.0887 725.9113,-635.7386" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="725.1102,-639.1465 735.6686,-638.2688 726.8673,-632.3706 725.1102,-639.1465" style=""></polygon>
+</g>
+<!-- Boardroom.earned&#45;&gt;Boardroom.getLastSnapshotOf -->
+<g id="edge18" class="edge" data-name="Boardroom.earned->Boardroom.getLastSnapshotOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M617.6081,-598C638.7701,-598 666.3252,-598 693.1144,-598" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="693.3293,-601.5001 703.3293,-598 693.3292,-594.5001 693.3293,-601.5001" style=""></polygon>
+</g>
+<!-- Boardroom.earned&#45;&gt;Boardroom.balanceOf -->
+<g id="edge19" class="edge" data-name="Boardroom.earned->Boardroom.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M612.46,-589.0646C646.2215,-579.6613 699.8035,-564.7376 739.0164,-553.8159" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="739.9612,-557.1861 748.6555,-551.1312 738.083,-550.4427 739.9612,-557.1861" style=""></polygon>
+</g>
+<!-- latestRPS.sub -->
+<g id="node39" class="node" data-name="latestRPS.sub">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="788.6209" cy="-343" rx="27" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-338.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">sub</text>
+</g>
+<!-- Boardroom.earned&#45;&gt;latestRPS.sub -->
+<g id="edge20" class="edge" data-name="Boardroom.earned->latestRPS.sub">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M616.8885,-595.3234C634.6164,-592.1135 654.7929,-585.2995 667.5658,-571 719.7024,-512.6319 656.1962,-462.5733 700.4155,-398 713.6741,-378.6385 736.2205,-364.7559 755.1988,-355.7815" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="756.7464,-358.9236 764.4504,-351.6505 753.8923,-352.5319 756.7464,-358.9236" style=""></polygon>
+</g>
+<!-- Boardroom.stake -->
+<g id="node23" class="node" data-name="Boardroom.stake">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="319.5956" cy="-590" rx="30.7558" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-585.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">stake</text>
+</g>
+<!-- Boardroom.withdraw -->
+<g id="node24" class="node" data-name="Boardroom.withdraw">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="319.5956" cy="-536" rx="47.51" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-531.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">withdraw</text>
+</g>
+<!-- Boardroom.exit -->
+<g id="node25" class="node" data-name="Boardroom.exit">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="580.3785" cy="-428" rx="27" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="580.3785" y="-423.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">exit</text>
+</g>
+<!-- Boardroom.exit&#45;&gt;Boardroom.balanceOf -->
+<g id="edge27" class="edge" data-name="Boardroom.exit->Boardroom.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M607.084,-431.2043C625.6365,-434.5623 650.0717,-441.3583 667.5658,-455 689.7186,-472.2745 678.5918,-491.3115 700.4155,-509 710.3655,-517.0646 722.5616,-523.1029 734.674,-527.5978" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="733.7309,-530.9739 744.3254,-530.881 735.9853,-524.3469 733.7309,-530.9739" style=""></polygon>
+</g>
+<!-- Boardroom.exit&#45;&gt;ContractGuard.withdraw -->
+<g id="edge26" class="edge" data-name="Boardroom.exit->ContractGuard.withdraw">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M607.4794,-426.0587C627.2378,-423.1278 653.0042,-415.8693 667.5658,-398 739.7513,-309.4175 638.6864,-239.1619 700.4155,-143 711.0265,-126.4702 728.5594,-114.054 745.2101,-105.2415" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="746.9233,-108.2986 754.3202,-100.7132 743.8075,-102.0302 746.9233,-108.2986" style=""></polygon>
+</g>
+<!-- Boardroom.claimReward&#45;&gt;IERC20.safeTransfer -->
+<g id="edge30" class="edge" data-name="Boardroom.claimReward->IERC20.safeTransfer">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M382.2534,-698.1991C407.7574,-701.16 436.1243,-708.4696 457.1912,-725 632.1485,-862.2823 595.206,-968.7132 667.5658,-1179 688.5021,-1239.8436 656.4934,-1272.9775 700.4155,-1320 707.0685,-1327.1226 715.5433,-1332.3846 724.5977,-1336.2682" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="723.5983,-1339.6306 734.1911,-1339.8364 726.0386,-1333.0698 723.5983,-1339.6306" style=""></polygon>
+</g>
+<!-- Boardroom.claimReward&#45;&gt;ITreasury.epoch -->
+<g id="edge28" class="edge" data-name="Boardroom.claimReward->ITreasury.epoch">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M380.045,-693.3888C407.509,-690.7015 438.0648,-683.2688 457.1912,-662 518.2004,-594.157 435.8811,-323.9953 493.1912,-253 504.0712,-239.5219 521.5566,-232.6312 538.0226,-229.8604" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="538.5672,-233.3202 548.075,-228.6456 537.7273,-226.3707 538.5672,-233.3202" style=""></polygon>
+</g>
+<!-- Boardroom.claimReward&#45;&gt;ITreasury.epoch -->
+<g id="edge29" class="edge" data-name="Boardroom.claimReward->ITreasury.epoch">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M367.3592,-709.6419C397.6039,-710.699 435.0534,-704.6175 457.1912,-680 518.2004,-612.157 435.8811,-341.9953 493.1912,-271 504.5899,-256.8794 523.2387,-249.9892 540.3696,-245.8805" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="541.1814,-249.2859 550.2143,-243.7491 539.7001,-242.4444 541.1814,-249.2859" style=""></polygon>
+</g>
+<!-- Boardroom.allocateSeigniorage -->
+<g id="node27" class="node" data-name="Boardroom.allocateSeigniorage">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="580.3785" cy="-482" rx="87.375" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="580.3785" y="-477.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">allocateSeigniorage</text>
+</g>
+<!-- Boardroom.allocateSeigniorage&#45;&gt;Boardroom.getLatestSnapshot -->
+<g id="edge32" class="edge" data-name="Boardroom.allocateSeigniorage->Boardroom.getLatestSnapshot">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M645.5264,-494.061C653.7097,-497.7852 661.368,-502.6494 667.5658,-509 704.9906,-547.3473 662.9282,-586.7138 700.4155,-625 704.6504,-629.3251 709.5574,-632.9616 714.846,-636.0185" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="713.5469,-639.2824 724.055,-640.6353 716.6841,-633.0248 713.5469,-639.2824" style=""></polygon>
+</g>
+<!-- Boardroom.totalSupply -->
+<g id="node30" class="node" data-name="Boardroom.totalSupply">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="788.6209" cy="-482" rx="55.6372" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-477.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">totalSupply</text>
+</g>
+<!-- Boardroom.allocateSeigniorage&#45;&gt;Boardroom.totalSupply -->
+<g id="edge31" class="edge" data-name="Boardroom.allocateSeigniorage->Boardroom.totalSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M661.7851,-475.3948C683.1566,-475.1183 705.8703,-475.2378 726.0823,-475.7532" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="725.9952,-479.252 736.0941,-476.0483 726.2016,-472.2551 725.9952,-479.252" style=""></polygon>
+</g>
+<!-- Boardroom.allocateSeigniorage&#45;&gt;Boardroom.totalSupply -->
+<g id="edge35" class="edge" data-name="Boardroom.allocateSeigniorage->Boardroom.totalSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M661.7851,-488.6052C683.1566,-488.8817 705.8703,-488.7622 726.0823,-488.2468" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="726.2016,-491.7449 736.0941,-487.9517 725.9952,-484.748 726.2016,-491.7449" style=""></polygon>
+</g>
+<!-- Boardroom.allocateSeigniorage&#45;&gt;IERC20.safeTransferFrom -->
+<g id="edge36" class="edge" data-name="Boardroom.allocateSeigniorage->IERC20.safeTransferFrom">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M648.2262,-493.4629C655.694,-497.2963 662.4365,-502.35 667.5658,-509 718.7819,-575.3999 650.1182,-1195.9014 700.4155,-1263 704.6524,-1268.6522 710.0107,-1273.249 715.9845,-1276.986" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="714.6492,-1280.2408 725.1182,-1281.8687 717.9493,-1274.0676 714.6492,-1280.2408" style=""></polygon>
+</g>
+<!-- prevRPS.add -->
+<g id="node42" class="node" data-name="prevRPS.add">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="788.6209" cy="-258" rx="27" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-253.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">add</text>
+</g>
+<!-- Boardroom.allocateSeigniorage&#45;&gt;prevRPS.add -->
+<g id="edge33" class="edge" data-name="Boardroom.allocateSeigniorage->prevRPS.add">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M646.2481,-470.0086C654.2237,-466.27 661.6321,-461.3833 667.5658,-455 711.6692,-407.5547 662.762,-365.7104 700.4155,-313 714.0557,-293.9054 736.596,-280.0185 755.4759,-270.9754" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="757.0098,-274.123 764.6712,-266.8049 754.1184,-267.748 757.0098,-274.123" style=""></polygon>
+</g>
+<!-- amount.mul -->
+<g id="node43" class="node" data-name="amount.mul">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="788.6209" cy="-173" rx="27" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="788.6209" y="-168.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">mul</text>
+</g>
+<!-- Boardroom.allocateSeigniorage&#45;&gt;amount.mul -->
+<g id="edge34" class="edge" data-name="Boardroom.allocateSeigniorage->amount.mul">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M647.1814,-470.2482C654.914,-466.4675 662.0071,-461.5053 667.5658,-455 733.7891,-377.5003 644.6798,-313.3537 700.4155,-228 713.3301,-208.2227 736.096,-194.2915 755.2638,-185.3984" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="756.8427,-188.5281 764.6061,-181.3184 754.0411,-182.1132 756.8427,-188.5281" style=""></polygon>
+</g>
+<!-- Boardroom.governanceRecoverUnsupported -->
+<g id="node28" class="node" data-name="Boardroom.governanceRecoverUnsupported">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="319.5956" cy="-1146" rx="137.6913" ry="18" style=""></ellipse>
+<text text-anchor="middle" x="319.5956" y="-1141.8" font-family="Times,serif" font-size="14.00" fill="#000000" style="">governanceRecoverUnsupported</text>
+</g>
+<!-- Boardroom.governanceRecoverUnsupported&#45;&gt;IERC20.safeTransfer -->
+<g id="edge37" class="edge" data-name="Boardroom.governanceRecoverUnsupported->IERC20.safeTransfer">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M406.1646,-1160.0983C423.24,-1163.6871 440.9067,-1167.9803 457.1912,-1173 554.3756,-1202.9568 591.5209,-1195.4767 667.5658,-1263 689.4298,-1282.4139 677.5429,-1301.7853 700.4155,-1320 708.308,-1326.2852 717.6578,-1331.112 727.2696,-1334.8177" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="726.3298,-1338.1961 736.9246,-1338.1622 728.6211,-1331.5817 726.3298,-1338.1961" style=""></polygon>
+</g>
+<!-- key -->
+<g id="node44" class="node" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="146,-1570 16,-1570 16,-1482 146,-1482 146,-1570" style=""></polygon>
+<text text-anchor="start" x="65.636" y="-1551.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Internal Call</text>
+<text text-anchor="start" x="61.744" y="-1531.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">External Call</text>
+<text text-anchor="start" x="39.2054" y="-1511.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Defined Contract</text>
+<text text-anchor="start" x="25.6027" y="-1491.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node45" class="node" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="346.5956,-1570 292.5956,-1570 292.5956,-1482 346.5956,-1482 346.5956,-1570" style=""></polygon>
+<text text-anchor="start" x="307.3547" y="-1551.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&nbsp;&nbsp;&nbsp;</text>
+<text text-anchor="start" x="307.3547" y="-1531.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&nbsp;&nbsp;&nbsp;</text>
+<polygon fill="#445773" stroke="transparent" points="305.5956,-1506 305.5956,-1526 333.5956,-1526 333.5956,-1506 305.5956,-1506" style=""></polygon>
+<text text-anchor="start" x="307.3547" y="-1511.4" font-family="Times,serif" font-size="14.00" fill="#000000" style="">&nbsp;&nbsp;&nbsp;</text>
+<polygon fill="none" stroke="#e8726d" points="307.5956,-1488 307.5956,-1504 331.5956,-1504 331.5956,-1488 307.5956,-1488" style=""></polygon>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge38" class="edge" data-name="key->key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M138,-1556C208.9954,-1556 229.2401,-1556 295.4776,-1556" style=""></path>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="295.5956,-1559.5001 305.5956,-1556 295.5956,-1552.5001 295.5956,-1559.5001" style=""></polygon>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge39" class="edge" data-name="key->key2">
+
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M138,-1536C208.9954,-1536 229.2401,-1536 295.4776,-1536" style=""></path>
+<polygon fill="#ffffff" stroke="#ffffff" stroke-width="2" points="295.5956,-1539.5001 305.5956,-1536 295.5956,-1532.5001 295.5956,-1539.5001" style=""></polygon>
+</g>
+</g>
+</svg>

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
+import "./common/ERC20Burnable.sol";
 
-import "./owner/Operator.sol";
+import "./common/Operator.sol";
 
 contract Cash is ERC20Burnable, Operator {
     /**
