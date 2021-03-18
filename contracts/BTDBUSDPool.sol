@@ -7,6 +7,7 @@ import "./common/SafeERC20.sol";
 import "./common/SafeMath.sol";
 import './common/Math.sol';
 
+
 // Note that this pool has no minter key of SHARE (rewards).
 // Instead, the governance will call SHARE distributeReward method and send reward to this pool at the beginning.
 contract BTDBUSDPool {
@@ -256,3 +257,37 @@ contract BTDBUSDPool {
     }
 
     // Safe share transfer function, just in case if rounding error causes pool to not have enough SHAREs.
+    function safeShareTransfer(address _to, uint256 _amount) internal {
+        uint256 _shareBal = share.balanceOf(address(this));
+        if (_shareBal > 0) {
+            if (_amount > _shareBal) {
+                share.safeTransfer(_to, _shareBal);
+                totalCirculating = totalCirculating.add(_shareBal);
+            } else {
+                share.safeTransfer(_to, _amount);
+                totalCirculating = totalCirculating.add(_amount);
+            }
+        }
+    }
+
+    function getTotalCirculating() view public returns (uint256) {
+        return totalCirculating;
+    }
+
+    function setOperator(address _operator) external onlyOperator {
+        operator = _operator;
+    }
+
+    function governanceRecoverUnsupported(IERC20 _token, uint256 amount, address to) external onlyOperator {
+        if (block.number < startBlock + BLOCKS_PER_WEEK * 68) {
+            // do not allow to drain core token (SHARE or lps) if less than 6 months after pool ends
+            require(_token != share, "share");
+            uint256 length = poolInfo.length;
+            for (uint256 pid = 0; pid < length; ++pid) {
+                PoolInfo storage pool = poolInfo[pid];
+                require(_token != pool.lpToken, "pool.lpToken");
+            }
+        }
+        _token.safeTransfer(to, amount);
+    }
+}
